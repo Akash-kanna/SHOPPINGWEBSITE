@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(background.png) no-repeat;
+    background-size: cover;
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+}
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h5{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #fff;
+}
+viewprod{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    
+    cursor: pointer;
+}
+.viewprod:hover{
+    letter-spacing: .2rem;
+}
